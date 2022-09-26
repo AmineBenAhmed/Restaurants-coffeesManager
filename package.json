@@ -1,0 +1,24 @@
+{
+  "name": "restaurants-coffeesmanager",
+  "version": "1.0.0",
+  "description": "this is a system that conroles restaurants and coffees employees and makes an inventory magement ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmineBenAhmed/Restaurants-coffeesManager.git"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Amine Ben Ahmed & Hamza Hmem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmineBenAhmed/Restaurants-coffeesManager/issues"
+  },
+  "homepage": "https://github.com/AmineBenAhmed/Restaurants-coffeesManager#readme"
+}
