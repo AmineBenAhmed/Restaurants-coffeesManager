@@ -12,8 +12,8 @@
     "strict": true,
     "baseUrl": "./src",
     "paths":{
-      "resources": ["resources/*"],
-      "utils": ["utils/*"],
+      "@enums/*": ["enums/*"],
+      "@models/*": ["models/*"],
       "middleware": ["middleware/*"]
     }
   },

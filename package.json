@@ -41,8 +41,8 @@
     "typescript": "^4.8.3"
   },
   "_moduleAliases": {
-    "@resources": "dist/resources",
-    "@utils": "dist/utils",
+    "@enums": "dist/enums",
+    "@models": "dist/models",
     "@middleware": "dist/middleware"
   }
 }
