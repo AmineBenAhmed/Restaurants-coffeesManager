@@ -1,0 +1,11 @@
+{
+  "signal": "SIGTERM",
+  "env": {
+    "NODE_ENV":"development"
+  },
+  "watch": ["src/*"],
+  "ext": "ts, json",
+  "ignore": ["./node_modules/*"],
+  "exec": "ts-node --files -r ./src/server.ts"
+}
+

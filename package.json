@@ -2,9 +2,12 @@
   "name": "restaurants-coffeesmanager",
   "version": "1.0.0",
   "description": "this is a system that conroles restaurants and coffees employees and makes an inventory magement ",
-  "main": "index.js",
+  "main": "src/server.ts",
   "scripts": {
-    "test": "npm run jest"
+    "start": "node dist/server.js",
+    "dev": "nodemon",
+    "build": "tsc -p .",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,26 @@
   "bugs": {
     "url": "https://github.com/AmineBenAhmed/Restaurants-coffeesManager/issues"
   },
-  "homepage": "https://github.com/AmineBenAhmed/Restaurants-coffeesManager#readme"
+  "homepage": "https://github.com/AmineBenAhmed/Restaurants-coffeesManager#readme",
+  "dependencies": {
+    "@types/module-alias": "^2.0.1",
+    "chalk": "^5.0.1",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "joi": "^17.6.1",
+    "module-alias": "^2.2.2",
+    "mongoose": "^6.6.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "typescript": "^4.8.3"
+  },
+  "_moduleAliases": {
+    "@resources": "dist/resources",
+    "@utils": "dist/utils",
+    "@middleware": "dist/middleware"
+  }
 }

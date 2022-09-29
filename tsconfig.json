@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "CommonJS",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "sourceRoot": "./src",
+    "strict": true,
+    "baseUrl": "./src",
+    "paths":{
+      "resources": ["resources/*"],
+      "utils": ["utils/*"],
+      "middleware": ["middleware/*"]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
+
